@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.checkbox input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.forgot-password {
+    text-align: right;
+    align-items: right;
+    margin-left: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.or-divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.image-section {
+    flex: 1;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 80%;
+    max-height: 80%;
+}

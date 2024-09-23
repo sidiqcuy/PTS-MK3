@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>GYMTenich</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+        .logo {
+            width: 60px;
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 10px 20px 10px 0;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .hero-content {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 400px;
+            height: 350px;
+            background-color: #333;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0 auto;
+            border-radius: 30px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffa500;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .gallery-item {
+            width: 50%;
+            height: 150px;
+            background-color: #333;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .technique {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .technique-image {
+            width: 100%;
+            max-width: 500px;
+            height: 500px;
+            background-color: #333;
+            background-image: url('Mask group.png');
+            background-size: cover;
+            background-position: center;
+            border-radius: 30px;
+            margin-bottom: 20px;
+        }
+        .technique-content {
+            width: 100%;
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+        .technique-recipes {
+            width: 100%;
+            max-width: 250px;
+        }
+        .recipe-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .recipe-image, .recipe-image2, .recipe-image3, .recipe-image4 {
+            width: 50px;
+            height: 50px;
+            background-size: cover;
+            background-position: center;
+            background-color: #333;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .recipe-image { background-image: url('Dl.jpeg'); }
+        .recipe-image2 { background-image: url('Pp.jpeg'); }
+        .recipe-image3 { background-image: url('Bp.jpeg'); }
+        .recipe-image4 { background-image: url('image (3).png'); }
+        .section-title {
+            color: #ffa500;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content, .hero-image, .technique-image, .technique-content, .technique-recipes {
+                width: 100%;
+                max-width: none;
+            }
+            .gallery-item {
+                width: 100%;
+            }
+            h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="home" id="home">
+    <div class="container">
+        <header>
+            <img src="logo (2).png" alt="Logo" class="logo">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="#gbg1">About</a>
+                <a href="sigh up.html">Sigh up</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>GYMTenich</h1>
+                <p>Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities. Adults who si</p>
+                <a href="#Technique" class="btn">Get Started</a>
+            </div>
+            <div class="hero-image"></div>
+        </section>
+        
+       
+        
+        <h2 class="section-title">///Technique</h2>
+        <section class="technique" id="Technique">
+            <div class="technique-image"></div>
+            <div class="technique-content">
+                <h3>Teknik - Teknik</h3>
+                <p>Ada beberapa teknik untuk kalian bisa merasakan otot-otot tertentu dan membentu otot dengan baik. Berikut ini adalah berikut beberapa contoh membentuk otot dan latihan calistheniks</p>
+                <a href="#" class="btn">Next ➜</a>
+            </div>
+            <div class="technique-recipes">
+                <a href="#" class="btn">View More Tehnic</a>
+                <div class="recipe-item">
+                    <div class="recipe-image"></div>
+                    <span>Deadlift</span>
+                </div>
+                <div class="recipe-item">
+                    <div class="recipe-image2"></div>
+                    <span>PullUp</span>
+                </div>
+                <div class="recipe-item">
+                    <div class="recipe-image3"></div>
+                    <span>BenchPress</span>
+                </div>
+                <div class="recipe-item">
+                    <div class="recipe-image4"></div>
+                    <span>Plank</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+
+
+    <div class="gbg" id="gbg1">
+        
+        <script>
+            function goToLogin() {
+                window.location.href = 'login.html';
+            }
+        </script>
+    
+        <div class="con">
+            <main>
+                <section class="heri">
+                    <div class="heri-content">
+                        <h1>Dapatkan lebih banyak dari perjalanan kebugaran Anda</h1>
+                        <p>Mulai alur progres bersih untuk membentuk otot anda</p>
+                        <button class="cta-button" onclick="goToLogin()">Create Account</button>
+                    </div>
+                    <div class="heri-image">
+                        <img src="fitness.png" alt="Fitness Silhouette">
+                    </div>
+                </section>
+                <section class="contact-form">
+                    <h2>//Contact Us</h2>
+                    <p>Silahkan isi Nama dan Email apabila anda hendak memberi masukan atau saran kritik untuk web site kami.</p>
+                    <form>
+                        <input type="text" placeholder="Masukan Nama Anda">
+                        <input type="email" placeholder="Masukan Email Anda">
+                        <textarea placeholder="Masukan Pesan"></textarea>
+                        <input type="submit" value="Kirim" class="btn1">
+                    </form>
+                </section>
+            </main>
+    
+            
+            
+            <footer>
+                <div class="footer-content">
+                    <div class="logo4">
+                        <img src="logo (2).png" alt="Logo">
+                    </div>
+                    <p>Sebuah website yang memperkenalkan apa itu GYM dan memperkenalkan beberapa teknik</p>
+                </div>
+            </footer>
+        </div>
+    </div> 
+</body>
+</html>

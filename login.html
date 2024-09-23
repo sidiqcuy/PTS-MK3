@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <link rel="stylesheet" href="styleee.css">
+
+    <script>
+        function goToHome() {
+            // Asumsi file Home.html ada di direktori yang sama
+            window.location.href = 'Home.html';
+        }
+        </script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo (2).png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="sigh up.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form-section">
+                <h1>Welcome Back!</h1>
+                <p>Start your fitness journey today</p>
+                <form>
+                    <input type="text" id="username" placeholder="Enter your name">
+                    <input type="email" placeholder="xyz@gmail.com">
+                    <input type="password"  id="password" placeholder="Enter your password">
+                    <div class="checkbox">
+                        <input type="checkbox" id="keep-signed">
+                        <label for="keep-signed">Keep me signed in</label>
+                        <a href="sigh up.html" class="forgot-password">Forgot your password?</a>
+                    </div>
+                    <button type="button" class="login-btn" onclick="goToHome()">Login</button>
+                    
+                    <div class="or-divider">
+                        <span>or</span>
+                    </div>
+                    <button type="button" class="google-btn">
+                        <img src="google.logo.png" alt="Google icon"> Login with Google
+                    </button>
+                </form>
+            </div>
+            <div class="image-section">
+                <img src="fitness.png" alt="Fitness icon">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
